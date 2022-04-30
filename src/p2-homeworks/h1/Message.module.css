@@ -1,0 +1,70 @@
+/*.message {*/
+
+/*}*/
+
+.container {
+    max-width: 30%;
+    height: auto;
+
+    display: flex;
+    background: greenyellow;
+    /*justify-content: space-between;*/
+    align-items: end;
+
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.avatar {
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    margin-right: 10px;
+}
+
+.mass {
+    padding: 10px;
+    /*background: black;*/
+    color: white;
+    border-radius: 10px 10px 10px 0;
+    box-shadow: -5px 5px 10px 5px gray;
+    position: relative;
+    background: radial-gradient(at -20px 150%, gray, black);
+}
+
+/*.mass:before {*/
+/*    display: block;*/
+/*    !*background: white;*!*/
+/*    !*width: 50px;*!*/
+/*    !*height: 50px;*!*/
+/*    border: 15px solid green;*/
+/*    border-left: 30px solid green;*/
+/*    content: '';*/
+/*    !*position: relative;*!*/
+/*    !*left: 20px;*!*/
+/*    !*top: 50%;*!*/
+/*    transform: translate(-50px, 100px) rotate(-20deg);*/
+/*    !*z-index: 1;*!*/
+/*}*/
+
+.name {
+    font-weight: bold;
+    color: blueviolet;
+    z-index: 5;
+
+}
+
+.bro {
+    margin: 10px 50px 0 0;
+    z-index: 5;
+}
+
+.time {
+    float: right;
+    margin-top: -15px;
+    color: darkgreen;
+    z-index: 5;
+}
+
